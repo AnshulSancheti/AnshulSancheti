@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Anshul Jain</title>
+  <desc id="desc">Building useful things, from interface to intelligence. A dark editorial banner with an orange orbital illustration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111923"/><stop offset="1" stop-color="#090e15"/>
+    </linearGradient>
+    <linearGradient id="sphere" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffbc83"/><stop offset=".52" stop-color="#fc8754"/><stop offset="1" stop-color="#a83224"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#fa8654" stop-opacity=".12"/><stop offset="1" stop-color="#fa8654" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#b2c5d8" stroke-opacity=".055"/>
+    </pattern>
+    <clipPath id="clip"><rect x="1" y="1" width="1198" height="358" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+    <circle cx="968" cy="180" r="252" fill="url(#glow)"/>
+    <path d="M740 0V360" stroke="#c3d1df" stroke-opacity=".09"/>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <rect x="52" y="48" width="7" height="7" rx="1" fill="#fb996d"/>
+      <text x="72" y="56" fill="#b6c5d4" font-size="12" letter-spacing="3">ANSHUL / BUILDER</text>
+      <text x="49" y="151" fill="#f1f4f8" font-size="72" font-weight="700" letter-spacing="-3">Anshul Jain<tspan fill="#fb996d">.</tspan></text>
+      <text x="53" y="205" fill="#d4dee9" font-size="27" letter-spacing="-.5">Building useful things.</text>
+      <text x="53" y="241" fill="#91a4b9" font-size="20">From interface to intelligence.</text>
+      <path d="M53 282H692" stroke="#c3d1df" stroke-opacity=".16"/>
+      <text x="53" y="314" fill="#879bb0" font-size="11" letter-spacing="2.2">CODE WITH CURIOSITY. BUILD WITH INTENT.</text>
+      <text x="1139" y="314" fill="#879bb0" font-size="11" letter-spacing="1.5" text-anchor="end">@AnshulSancheti</text>
+    </g>
+    <g transform="translate(966 170)">
+      <circle r="112" fill="none" stroke="#91a4b9" stroke-opacity=".15" stroke-dasharray="3 8"/>
+      <path d="M-154 0H154M0-139V139" stroke="#91a4b9" stroke-opacity=".13"/>
+      <ellipse rx="151" ry="48" transform="rotate(-34)" fill="none" stroke="#738ca4" stroke-width="1.4"/>
+      <circle r="65" fill="url(#sphere)"/>
+      <path d="M-50-40C-5-69 57-27 54 23" fill="none" stroke="#ffd5b5" stroke-opacity=".36" stroke-width="1.5"/>
+      <ellipse rx="151" ry="48" transform="rotate(34)" fill="none" stroke="#f6ba91" stroke-opacity=".78" stroke-width="1.5"/>
+      <circle cx="125" cy="-79" r="6" fill="#f3c7a8"/>
+      <circle cx="-126" cy="-77" r="4" fill="#89a7c7"/>
+      <circle cy="-112" r="3" fill="#91a4b9"/>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="359" rx="18" fill="none" stroke="#283545"/>
+</svg>
